@@ -55,9 +55,10 @@ public class PlayerController : MonoBehaviour
     {
         scoreText.text = "Count: " + score.ToString();
 
-        if (score >= 3)
+        if (score >= 5)
         {
             winText.text = "You Win";
         }
     }
 }
+

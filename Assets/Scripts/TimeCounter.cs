@@ -9,7 +9,7 @@ public class TimeCounter : MonoBehaviour
     private float countup = 0.0f;
 
     //タイムリミット
-    public float timeLimit = 5.0f;
+    public float timeLimit = 60.0f;
 
     //時間を表示するText型の変数
     public Text timeText;
